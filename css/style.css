@@ -51,10 +51,23 @@ header {
     z-index: 1;
 }
 
+header > .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    color: white;
+}
 
 .logo > img {
     height: 30px;
 }
+
+nav > a {
+    margin-right: 10px;
+}
+
 
 
 
@@ -66,7 +79,7 @@ main {
 }
 
 .row {
-    column-gap: 10px;
+    column-gap: 20px;
     row-gap: 50px;
 }
 
