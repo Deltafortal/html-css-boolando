@@ -136,3 +136,7 @@ img {
 .card:hover .hovered {
     visibility: visible;
 }
+
+.sostenibility-only {
+    left: 0px;
+}
