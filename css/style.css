@@ -25,3 +25,114 @@ green: #ff0000
 
 /* Utilities */
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Header */
+
+header {
+    height: 80px;
+    background-color: var(--orange);
+    border-bottom: #006300 1px solid;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.logo > img {
+    height: 30px;
+}
+
+
+
+
+/* main */ 
+
+main {
+   margin-top: 120px;
+}
+
+.row {
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.favourite {
+    cursor: grab;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.sales , .sostenibility {
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 90px
+}
+
+.sales {
+    background-color: var(--red);
+    left: 0;
+}
+
+.sostenibility {
+    background-color: var(--green);
+    left: 50px;
+}
+
+.saled-price {
+    color: var(--red);
+}
+
+.full-price {
+    text-decoration: line-through;
+}
+
+/* Hover */ 
+
+.favourite:hover {
+    color: var(--red);
+}
+
+.hovered {
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.card:hover .hovered {
+    visibility: visible;
+}
