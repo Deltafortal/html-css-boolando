@@ -1,0 +1,27 @@
+/* Colori 
+
+Orange: #ff6900;
+red: #ff0000
+green: #ff0000
+
+*/
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Proprieties */
+
+:root {
+    --orange: #ff6900;
+    --red: #ff0000;
+    --green: #006300;
+}
+
+
+/* Utilities */
+
